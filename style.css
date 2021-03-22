@@ -1,0 +1,51 @@
+body {
+	background-color: cadetblue;
+	background-size: cover;
+	background-repeat: none;
+}
+
+h1 {
+	font-family: 'Syne Mono', monospace;
+	font-size: 64px;
+	margin-left: 25px;
+	color: #4e4e55;
+}
+
+button {
+	margin-left: 25px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 6px;
+	font-family: 'Syne Mono', monospace;
+	font-size: 28px;
+	color: #4e4e55;
+	text-decoration: none;
+	cursor: crosshair;
+	background-color: #ddd;
+	border: 3px solid #555;
+	height: 60px;
+	width: 200px;
+}
+
+button:hover{
+    opacity: .75;
+    background: linear-gradient(green, yellow, red);
+}
+
+a{
+	color: #000;
+}
+
+#excusas{
+	position: relative;
+	top: 30px;
+	left: 25px;
+	font-family: 'Syne Mono', monospace;
+	font-size: 96px;
+	color: #009;
+}
+
+
+.hojita{
+    color: green;
+}
