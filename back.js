@@ -1,13 +1,13 @@
-function genExcusas() {
+function genExcuses() {
 	
-	var quien = ['hermanita pequeña', 'gato', 'primo', 'perro'];
-	var accion = ['se comio', 'tiro a la basura', 'se limpio el culo con', 'quemo'];
-	var objeto = ['tarea', 'proyecto', 'reporte', 'casa'];
+	var who = ['little sister', 'cat', 'cousin', 'dog'];
+	var action = ['eat', 'trow to the trash', 'clean his ass', 'burn'];
+	var object = ['homework', 'proyect', 'report', 'house'];
 	
-	var sujeto = quien[Math.round(Math.random()*(quien.length-1))];
-	var hizo = accion[Math.round(Math.random()*(accion.length-1))];
-	var que = objeto[Math.round(Math.random()*(objeto.length-1))];
+	var subject = who[Math.round(Math.random()*(who.length-1))];
+	var made = action[Math.round(Math.random()*(action.length-1))];
+	var what = object[Math.round(Math.random()*(object.length-1))];
 	
-	document.getElementById('excusas').innerHTML = '<div>Mi ' + sujeto + ' ' + hizo + '<br> Mi ' + que + '.</div>'
+	document.getElementById('excusas').innerHTML = '<div>My ' + subject + ' ' + made + '<br> My ' + what + '.</div>'
 	
 }
