@@ -8,6 +8,7 @@ function genExcuses() {
 	var made = action[Math.round(Math.random()*(action.length-1))];
 	var what = object[Math.round(Math.random()*(object.length-1))];
 	
-	document.getElementById('excusas').innerHTML = '<div>My ' + subject + ' ' + made + '<br> My ' + what + '.</div>'
+ 
+    document.getElementById('excuses').innerHTML = '<div>My ' + subject + ' ' + made + '<br> my ' + what + '.</div>'
 	
 }
